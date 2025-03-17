@@ -8,7 +8,6 @@ This project provides a comprehensive data pipeline solution to extract, transfo
 - [Architecture](#architecture)
 - [Prerequisites](#prerequisites)
 - [System Setup](#system-setup)
-- [Video](#video)
 
 ## Overview
 
@@ -20,7 +19,6 @@ The pipeline is designed to:
 4. Load the transformed data into Amazon Redshift for analytics and querying.
 
 ## Architecture
-![RedditDataEngineering.png](assets%2FRedditDataEngineering.png)
 1. **Reddit API**: Source of the data.
 2. **Apache Airflow & Celery**: Orchestrates the ETL process and manages task distribution.
 3. **PostgreSQL**: Temporary storage and metadata management.
@@ -38,7 +36,7 @@ The pipeline is designed to:
 ## System Setup
 1. Clone the repository.
    ```bash
-    git clone https://github.com/airscholar/RedditDataEngineering.git
+    git clone https://github.com/Raja0210/Reddit-Project.git
    ```
 2. Create a virtual environment.
    ```bash
@@ -64,7 +62,3 @@ The pipeline is designed to:
    ```bash
     open http://localhost:8080
    ```
-
-
-## Video
-[![Reddit Data Engineering](https://img.youtube.com/vi/LSlt6iVI_9Y/0.jpg)](https://www.youtube.com/watch?v=LSlt6iVI_9Y)
