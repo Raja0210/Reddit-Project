@@ -41,13 +41,14 @@ The solution is ideal for building Reddit-based analytics dashboards, conducting
 The pipeline integrates the following components:
 
 1. **Reddit API**: Acts as the data source.
-2. **Apache Airflow & Celery**: Orchestrates the ETL workflow and distributes tasks.
-3. **Amazon S3**: Stores raw data securely.
-4. **AWS Glue**: Handles data cataloging and transformation jobs.
-5. **Amazon Athena**: Enables SQL-based querying for data transformation.
-6. **Amazon Redshift**: Serves as the data warehouse for analytics.
+2. **Apache Airflow & Redis**: Orchestrates the ETL workflow and distributes tasks.
+3. **PostgreSQL**: Manages metadata and serves as temporary storage.
+4. **Amazon S3**: Stores raw data securely.
+5. **AWS Glue**: Handles data cataloging and transformation jobs.
+6. **Amazon Athena**: Enables SQL-based querying for data transformation.
+7. **Amazon Redshift**: Serves as the data warehouse for analytics.
 
-![Architecture Diagram](https://via.placeholder.com/800x400?text=Architecture+Diagram)
+![Architecture Diagram](assets/Image.jpg)
 
 ---
 
